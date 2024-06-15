@@ -1,0 +1,4 @@
+A = imread('C:\Users\Madam Abigail\Desktop\DH.png', 'png');
+A = double(A);
+A = A(1:N, 1:N);
+A = imresize(A, [N, N]);
