@@ -1,0 +1,9 @@
+figure; imshow(mat2gray(abs(A)));
+title('Object pattern');
+axis off;
+figure; imshow(mat2gray(abs(I5)));
+title('reconstructed image');
+axis off;
+figure; imshow(mat2gray(abs(I2)));
+title('Fourier hologram');
+axis off;
