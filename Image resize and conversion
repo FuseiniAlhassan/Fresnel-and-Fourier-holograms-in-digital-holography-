@@ -1,0 +1,5 @@
+I = imresize(1*I, [M M]);
+I = double(1*I(:, :, 1));
+figure; imshow(mat2gray(abs(1*I)));
+title('Object pattern');
+axis off;
