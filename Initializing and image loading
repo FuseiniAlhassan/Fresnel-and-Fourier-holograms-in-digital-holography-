@@ -1,0 +1,5 @@
+clear all;
+close all;
+A = "C:\Users\Madam Abigail\Desktop\DHH.bmp";
+I = imread(A);
+M = 512;
