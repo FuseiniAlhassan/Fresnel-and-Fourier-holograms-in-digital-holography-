@@ -1,0 +1,6 @@
+O = fftshift(ifft2(fftshift(1*I)));
+R = ones(512, 512);
+R = R * max(max(abs(O)));
+R = R .* exp(2 * i * pi * C / 4);
+H = abs(O + R).^2;
+figure; imshow(mat2gray(abs(H)));
