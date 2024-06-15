@@ -1,0 +1,4 @@
+A1 = fftshift(fft2(A));
+I1 = abs(A1) .* abs(A1);
+B1 = fftshift(fft2(B));
+I2 = abs(B1) .* abs(B1);
