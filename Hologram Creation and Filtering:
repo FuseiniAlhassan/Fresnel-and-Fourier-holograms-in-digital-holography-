@@ -1,0 +1,5 @@
+D1 = A1 + B1;
+I3 = abs(D1) .* abs(D1);
+I4 = (I3 - I1);
+D2 = fftshift(fft2(I4));
+I5 = abs(D2) .* abs(D2);
