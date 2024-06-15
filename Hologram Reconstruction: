@@ -1,0 +1,4 @@
+U = fftshift(ifft2(fftshift(H)));
+figure; imshow(900 * mat2gray(abs(U)));
+title('Reconstructed image');
+axis off;
